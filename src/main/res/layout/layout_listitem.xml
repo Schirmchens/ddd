@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:textColor = "@color/colorPrimaryDark"
+    android:padding="15dp"
+    android:id ="@+id/parent_layout"
+    >
+
+    <TextView
+
+        android:id="@+id/person_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="See where it is"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/all_data_of_person_button"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

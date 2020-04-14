@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <!-- Die Aktion sollte wenn möglich als Action-Button angezeigt werden -->
+
+
+    <item
+        android:id="@+id/menu_in_header"
+        android:title="Menu"
+        android:orderInCategory="1"
+        android:icon="@android:drawable/ic_menu_more"
+        app:showAsAction="ifRoom"
+        >
+
+            <menu>
+
+                <item
+                    android:id="@+id/action_get_to_library_check"
+                    android:orderInCategory="9"
+                    android:title="Library Check"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_get_to_all_persons"
+                    android:orderInCategory="9"
+                    android:title="All Persons"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_get_virtual_math_function"
+                    android:orderInCategory="9"
+                    android:title="Math Function"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_show_graph"
+                    android:orderInCategory="9"
+                    android:title="lighting conditions"
+                    app:showAsAction="never" />
+
+
+            </menu>
+
+        </item>
+
+    <item
+            android:id="@+id/action_search"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Hole Daten"
+            app:showAsAction="ifRoom" />
+
+
+
+
+        <!-- Die Aktion soll immer als Eintrag im  Overflow Menu angezeigt werden -->
+        <item
+            android:id="@+id/action_settings"
+            android:orderInCategory="9"
+            android:title="Einstellungen"
+            app:showAsAction="never" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</menu>

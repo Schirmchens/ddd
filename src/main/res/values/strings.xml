@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DCP Sample App Java</string>
+    <string name="welcome_MainActivity">this will be my learning experience</string>
+    <string name="go_deeper">go deeper</string>
+    <string name="to_secon_activity">into the exploration of the LCP library</string>
+    <string name="toast_button">Toast</string>
+    <string name="next">Next</string>
+    <string name="count_button_text">count</string>
+    <string name="hello_second_activity">Yuhu we got into the second activity</string>
+    <string name="random_heading">Here is a random number between 0 and %d. </string>
+    <string name="hello_person">Yuhu we got into the screen to see the profile of:</string>
+    <string name="mathfunction">mathFunction</string>
+</resources>

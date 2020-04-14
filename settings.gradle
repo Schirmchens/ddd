@@ -1,0 +1,2 @@
+rootProject.name='DCP Sample App Java'
+include ':app'

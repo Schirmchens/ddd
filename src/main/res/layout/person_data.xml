@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="false"
+    android:background="@color/background_home"
+    android:backgroundTintMode="add"
+    android:clipChildren="false"
+    android:layoutDirection="inherit"
+    android:orientation="vertical"
+    android:textColor="@color/colorPrimaryDark"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+
+
+<TextView
+    android:id="@+id/get_offers"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    ></TextView>
+
+
+    <TextView
+        android:id="@+id/secondScreen"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/hello_person" />
+
+    <TextView
+        android:id="@+id/theName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="theName"
+        android:textAlignment="inherit"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/theBirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="theName"
+        android:textAlignment="inherit"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/theGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="theBirthday"
+        android:textAlignment="inherit"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/theFitness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="theBirthday"
+        android:textAlignment="inherit"
+        android:textSize="20sp" />
+
+    <TextView
+
+        android:id="@+id/theHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="theBirthday"
+        android:textAlignment="inherit"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/theInterests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="theBirthday"
+        android:textAlignment="inherit"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/theMembershpis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="theBirthday"
+        android:textAlignment="inherit"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/theWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="theBirthday"
+        android:textAlignment="inherit"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
